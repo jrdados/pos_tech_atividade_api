@@ -121,6 +121,23 @@ Exemplo:
 ## Documentação Automática (Swagger)
 A API possui documentação automática gerada pelo FastAPI, acessível em /docs (Swagger UI) e /redoc (ReDoc). A documentação permite visualizar e testar todos os endpoints diretamente no navegador.
 
+## Deploy (Render) – API Públic
+
+A API está publicada e acessível via internet:
+
+- Base URL: https://pos-tech-atividade-api.onrender.com
+- Swagger (docs): https://pos-tech-atividade-api.onrender.com/docs
+- OpenAPI JSON: https://pos-tech-atividade-api.onrender.com/openapi.json
+
+### Testes rápidos
+- Health: https://pos-tech-atividade-api.onrender.com/api/v1/health
+- Books (limit 5): https://pos-tech-atividade-api.onrender.com/api/v1/books?limit=5
+- Overview: https://pos-tech-atividade-api.onrender.com/api/v1/stats/overview
+- Categories: https://pos-tech-atividade-api.onrender.com/api/v1/stats/categories
+- Top rated: https://pos-tech-atividade-api.onrender.com/api/v1/books/top-rated?limit=10
+- Price range: https://pos-tech-atividade-api.onrender.com/api/v1/books/price-range?min=10&max=20&limit=5
+
+
 ## Boas Práticas Implementadas
 - Código modular e organizado
 - Separação clara entre scraping, processamento e API
@@ -139,6 +156,9 @@ A API possui documentação automática gerada pelo FastAPI, acessível em /docs
 - Cache de respostas
 - Integração com modelos de ML
 - Monitoramento e métricas
+
+## Vídeo
+https://drive.google.com/file/d/1Zpsk_QJoJphUUZgnIuOEwcQt6sJxAHKv/view?usp=sharing
 
 ## Autor
 Projeto desenvolvido para o Tech Challenge – Pós Tech FIAP
